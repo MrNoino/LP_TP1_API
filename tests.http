@@ -1,0 +1,10 @@
+@apiurl = http://127.0.0.1:5000
+
+### Rota inicial - mensagem de boas vindas
+GET {{apiurl}}/ HTTP/1.1
+
+### Rota para obter todos os quadros elétricos
+GET {{apiurl}}/switchboards/ HTTP/1.1
+
+### Rota para obter um quadro elétrico
+GET {{apiurl}}/switchboards/1/ HTTP/1.1
