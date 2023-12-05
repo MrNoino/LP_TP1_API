@@ -1,4 +1,6 @@
 @apiurl = http://127.0.0.1:5000
+#@apiurl = https://lp-tp1-api.vercel.app/
+
 
 ### Rota inicial - mensagem de boas vindas
 GET {{apiurl}}/ HTTP/1.1
@@ -8,3 +10,6 @@ GET {{apiurl}}/switchboards/ HTTP/1.1
 
 ### Rota para obter um quadro elétrico
 GET {{apiurl}}/switchboards/1/ HTTP/1.1
+
+### Rota para obter uma planta
+GET {{apiurl}}/blueprints/1.png/ HTTP/1.1

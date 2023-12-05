@@ -1,5 +1,5 @@
-from flask import Flask, jsonify, request
-import json
+from flask import Flask, jsonify, request, send_file
+import json, mimetypes
 import http_codes
 
 app = Flask(__name__)
@@ -36,6 +36,17 @@ def switchboards(id = None):
             return jsonify(switchboards), http_codes.OK
 
         return jsonify({"message": "NOT FOUND"}), http_codes.NOT_FOUND
+
+@app.get("/blueprints/<filename>/")
+def blueprints(filename):
+
+    full_path = "./blueprints/" + filename
+
+    mime_type = mimetypes.guess_type(full_path)[0]
+
+    print(mime_type)
+
+    return send_file(full_path, mimetype= mime_type), http_codes.OK
 
 if __name__ == "__main__":
     app.run(debug=True)
