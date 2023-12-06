@@ -4,7 +4,7 @@
         "id": 1,
         "switches": [
             {
-                "number": 1,
+                "position": 1,
                 "room": "Cozinha",
                 "blueprint_room_position": {
                                             "top_left": {"x": 0, "y": 0}, 
@@ -14,7 +14,37 @@
                                         }
             },
             {
-                "number": 2,
+                "position": 2,
+                "room": "WC",
+                "blueprint_room_position": {
+                                            "top_left": {"x": 0, "y": 0}, 
+                                            "top_right": {"x": 0, "y": 0}, 
+                                            "bottom_left": {"x": 0, "y": 0}, 
+                                            "bottom_right": {"x": 0, "y": 0}
+                                        }
+            },
+            {
+                "position": 3,
+                "room": "Escritório",
+                "blueprint_room_position": {
+                                            "top_left": {"x": 0, "y": 0}, 
+                                            "top_right": {"x": 0, "y": 0}, 
+                                            "bottom_left": {"x": 0, "y": 0}, 
+                                            "bottom_right": {"x": 0, "y": 0}
+                                        }
+            },
+            {
+                "position": 4,
+                "room": "Sala",
+                "blueprint_room_position": {
+                                            "top_left": {"x": 0, "y": 0}, 
+                                            "top_right": {"x": 0, "y": 0}, 
+                                            "bottom_left": {"x": 0, "y": 0}, 
+                                            "bottom_right": {"x": 0, "y": 0}
+                                        }
+            },
+            {
+                "position": 5,
                 "room": "Quarto",
                 "blueprint_room_position": {
                                             "top_left": {"x": 0, "y": 0}, 
@@ -24,6 +54,7 @@
                                         }
             }
         ],
+
         "blueprint_filename": "1.png"
     }
 
