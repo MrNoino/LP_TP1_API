@@ -1,10 +1,12 @@
-from flask import Flask, jsonify, request, send_file
+# -*- coding: utf-8 -*-
+
+from flask import Flask, jsonify, request, send_file, json
 import json, mimetypes
 import http_codes
 
 app = Flask(__name__)
 
-app.config['JSON_AS_ASCII'] = False
+app.json.ensure_ascii = False
 
 @app.route("/")
 def welcome():
