@@ -1,6 +1,6 @@
-@apiurl = http://127.0.0.1:5000
+#@apiurl = http://127.0.0.1:5000
 
-#@apiurl = https://lp-tp1-api.vercel.app/
+@apiurl = https://lp-tp1-api.vercel.app/
 
 
 ### Rota inicial - mensagem de boas vindas
