@@ -7,50 +7,50 @@
                 "position": 1,
                 "room": "Cozinha",
                 "blueprint_room_position": {
-                                            "top_left": {"x": 0, "y": 0}, 
-                                            "top_right": {"x": 0, "y": 0}, 
-                                            "bottom_left": {"x": 0, "y": 0}, 
-                                            "bottom_right": {"x": 0, "y": 0}
+                                            "top_left": {"x": 69, "y": 47}, 
+                                            "bottom_left": {"x": 69, "y": 177},
+                                            "top_right": {"x": 276, "y": 47}, 
+                                            "bottom_right": {"x": 276, "y": 177}
                                         }
             },
             {
                 "position": 2,
                 "room": "WC",
                 "blueprint_room_position": {
-                                            "top_left": {"x": 0, "y": 0}, 
-                                            "top_right": {"x": 0, "y": 0}, 
-                                            "bottom_left": {"x": 0, "y": 0}, 
-                                            "bottom_right": {"x": 0, "y": 0}
+                                            "top_left": {"x": 283, "y": 47}, 
+                                            "bottom_left": {"x": 283, "y": 177},
+                                            "top_right": {"x": 243, "y": 47}, 
+                                            "bottom_right": {"x": 243, "y": 177}
                                         }
             },
             {
                 "position": 3,
                 "room": "Escritório",
                 "blueprint_room_position": {
-                                            "top_left": {"x": 0, "y": 0}, 
-                                            "top_right": {"x": 0, "y": 0}, 
-                                            "bottom_left": {"x": 0, "y": 0}, 
-                                            "bottom_right": {"x": 0, "y": 0}
+                                            "top_left": {"x": 350, "y": 47}, 
+                                            "bottom_left": {"x": 350, "y": 234}, 
+                                            "top_right": {"x": 498, "y": 47}, 
+                                            "bottom_right": {"x": 498, "y": 234}
                                         }
             },
             {
                 "position": 4,
                 "room": "Sala",
                 "blueprint_room_position": {
-                                            "top_left": {"x": 0, "y": 0}, 
-                                            "top_right": {"x": 0, "y": 0}, 
-                                            "bottom_left": {"x": 0, "y": 0}, 
-                                            "bottom_right": {"x": 0, "y": 0}
+                                            "top_left": {"x": 69, "y": 184}, 
+                                            "bottom_left": {"x": 69, "y": 372}, 
+                                            "top_right": {"x": 268, "y": 184}, 
+                                            "bottom_right": {"x": 268, "y": 372}
                                         }
             },
             {
                 "position": 5,
                 "room": "Quarto",
                 "blueprint_room_position": {
-                                            "top_left": {"x": 0, "y": 0}, 
-                                            "top_right": {"x": 0, "y": 0}, 
-                                            "bottom_left": {"x": 0, "y": 0}, 
-                                            "bottom_right": {"x": 0, "y": 0}
+                                            "top_left": {"x": 276, "y": 242}, 
+                                            "bottom_left": {"x": 276, "y": 372}, 
+                                            "top_right": {"x": 498, "y": 242}, 
+                                            "bottom_right": {"x": 498, "y": 372}
                                         }
             }
         ],
